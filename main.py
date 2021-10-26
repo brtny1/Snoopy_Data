@@ -4,4 +4,5 @@
 import csv
 
 #Read tab-delimited file:
-with open("")
+with open("FilterOff_OpenWindow.TXT" , 'r') as txt:
+  txt2csv = csv.reader(txt, delimiter = "\t")
