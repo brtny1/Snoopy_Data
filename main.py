@@ -32,3 +32,20 @@ import pandas
 df = pandas.read_csv("FilterOff_OpenWindow.csv")
 #print(df)
 
+minutes = []
+pm1 = []
+pm2_5 = []
+pm10 = []
+tvoc = []
+co2 = []
+
+# loop over the rows in the data frame using iterrows() method:
+for index,row in df.iterrows():
+    minutes.append(row["#"])
+    pm1.append(row["PM1.0"])
+    pm2_5.append(row["PM2.5"]) 
+    pm10.append(row["PM10.0"])
+    tvoc.append(row["TVOC(ppb)"])
+    co2.append(row["CO2(ppm)"])
+
+#ploting pollen:
