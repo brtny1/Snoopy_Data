@@ -23,3 +23,4 @@ with open("FilterOff_OpenWindow.csv", 'w') as csvFile:
   # adding each sublist from the data array to a seperate row in csvFile:
   list2csv.writerows(data)
 
+# plot data:
