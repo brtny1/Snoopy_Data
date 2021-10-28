@@ -24,3 +24,6 @@ with open("FilterOff_OpenWindow.csv", 'w') as csvFile:
   list2csv.writerows(data)
 
 # plot data:
+import matplotlib.pyplot as plt 
+import pandas
+#in order to import pandas, first click on the cube in the left pane, type pandas in the search box, and then click the plus sign by 'pandas'
