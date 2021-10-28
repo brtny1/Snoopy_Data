@@ -48,4 +48,14 @@ for index,row in df.iterrows():
     tvoc.append(row["TVOC(ppb)"])
     co2.append(row["CO2(ppm)"])
 
-#ploting pollen:
+#plotting pollen:
+plt.plot(minutes, pm1, color = "yellow")
+plt.plot(minutes, pm2_5, color = "orange")
+plt.plot(minutes, pm10, color = "red")
+# labels for x and y axis:
+plt.xlabel("Minutes")
+plt.ylabel("PPM (particles per million parts of air)")
+#title of the graph:
+plt.title("Pollen & Dust")
+plt.show()
+
