@@ -59,3 +59,10 @@ plt.ylabel("PPM (particles per million parts of air)")
 plt.title("Pollen & Dust")
 plt.show()
 
+#plotting TVOC:
+plt.plot(minutes, tvoc, color = "green")
+plt.xlabel("Minutes")
+plt.ylabel("PPB (particles per billion parts of air)")
+#title of the graph:
+plt.title("TVOC")
+plt.show()
