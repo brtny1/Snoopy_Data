@@ -27,3 +27,8 @@ with open("FilterOff_OpenWindow.csv", 'w') as csvFile:
 import matplotlib.pyplot as plt 
 import pandas
 #in order to import pandas, first click on the cube in the left pane, type pandas in the search box, and then click the plus sign by 'pandas'
+
+# Create a data frame (df) from the csv file using pandas's read_csv() method:
+df = pandas.read_csv("FilterOff_OpenWindow.csv")
+#print(df)
+

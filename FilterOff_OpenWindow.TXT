@@ -1,4 +1,4 @@
-   #	MM:DD:YYYY	HH:MM:SS	PM1.0	PM2.5	PM10.0	TVOC(ppb) CO2(ppm)
+#	MM:DD:YYYY	HH:MM:SS	PM1.0	PM2.5	PM10.0	TVOC(ppb) CO2(ppm)
  1    	 9/12/2021	12: 4:40 AM	  14	  17	  20	    0	  400
  2    	 9/12/2021	12: 5: 0 AM	  13	  20	  22	 4578	  620
  3    	 9/12/2021	12: 6: 0 AM	  10	  18	  25	  778	  400
